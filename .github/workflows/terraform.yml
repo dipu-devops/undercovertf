@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Azure login test
+      # Azure login tests
       - name: Azure Login Test
         uses: azure/login@v2
         with:
