@@ -22,10 +22,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # Verify Azure access
-      - name: Verify Azure Account
-        run: az account show
-
       # Setup Terraform
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
